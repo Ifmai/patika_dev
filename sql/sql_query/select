@@ -1,0 +1,24 @@
+Şimdi sql sorgularının ilk en temel komutlarından bir tanesi 
+
+"Select"'tir
+
+Bu select ne işe yarar?
+
+Select istediğimiz bir tablodu stunları seçmemizi sağlayan ve devamında istediğimiz ekstra sorgularla daha farklı sonuçlar elde edbileceğimiz bir sorgu komutudur.
+
+Selecet sorgusunun syntax'ı şu şekildedir.
+
+Select <sutün_adı> <sutün_adı> ... from Table_Name
+
+tüm sutünları görmek için illaki hepsini yazmak zoruda mıyız? Hayır. * işareti ile tüm sutünları görebiliriz.
+
+"Selecet * from Table_Name"
+
+Sql sorgularında küçük büyük harf duyarlılığı yoktur. Yani "Select" ile "select" aynı şeydir.
+
+Çok karmaşık sorgular yazılabilir select ile ancak en temel basit kullanımı bu şekildedir.
+
+Örnek : where komutu ile birleştirilebilir.
+
+Select * from ogrenci_not where not > 50
+bana notu 50'den büyük olan öğrencileri listeler.

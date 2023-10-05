@@ -1,0 +1,35 @@
+SQL declarative bir programlama dilidir.
+SQL = Structered Query Language
+
+Veri nedir? 
+Ölçüm, sayım, deney, gözlem veya araştırma sonucuyla elde edilen ham bilgilerdir.
+
+Veritabanı nedir?
+Verilerin organize bir şekilde depolanmasını sağlayan sistemlerdir.
+
+Verilerin düzenli olmasının faydaları nelerdir?
+İleriye yönelik geliştirici kararlar verebiliriz.
+Hatalarımızı daha kolay çözeriz.
+Geleceğe yönelik başarılı tahminlerde bulunabiliriz.
+
+Şimdi excel gibi veri tutmak içn sheets mantığında şeyler varken neden bir veritabanına ihtiyaç duyuyoruz?
+
+Veritabanı sayesinde sütunlarda bulunacak verilerin aynı veri tipinde olmasını garanti ederiz.
+Veritabanları sayesinde çok büyük boyutlu veri kümeleriyle daha kolay çalışırız.
+Çoklu kullanıcı yönetimi için veri tabanları daha uygundur.
+Veritabanları başka yazılım ve uygulamalarla daha kolay çalışır.
+
+DBMS (Data Base Maagement System)
+
+Veritabınana veriler ekleyebiliyor bunları tablolar halinde tutabiliyor vb. bu işlemleri yapabiliyorduk demi?
+
+DBMS sistemi ise bize şunu sağlıyor SQL sorguları sayesinde veritabanımız üzerimizde yapmak istediğimiz işlemleri veritabanı yönetim sistemi(DBMS) ile yapıyoruz aslında.
+
+
+Temel Veritabanı Yönetim Sistemleri
+Hiyerarşik Veritabanı
+Ağ Veritabanı
+İlişkisel Veritabanı (RDBMS)
+Nesneye Yönelik Veritabanı
+İlişkisel Veritabanı Yönetim Sistemleri
+İlişkisel veritabanı yönetim sistemlerinde veriler satır ve sütunlarında oluşan tablolarda tutulur. Her sütunda aynı tür verilerin tutulması sebebiyle yüksek bir veri tutarlılığına sahiptir.

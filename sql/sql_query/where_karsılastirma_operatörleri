@@ -1,0 +1,40 @@
+"Where" Anahtar kelimesi
+
+Genellikle bir koşula bağlı olarak bir listeyi sıralama gösteriminde kullanılan bir komuttur.
+
+Selecten bahsederken selectin sonunda kısaca buna değinmiştik.
+
+Kısaca syntax'ı şu şekilde ilerliyor.'
+
+"Where <koşul>"
+
+select * from ogrenci where ders = 'MATH' and ogrenci_not > 50 
+
+Bu komut ile dersi MATH olan ve notu 50'den büyük olan öğrencileri seçmiş oluyoruz.
+
+Bu şekilde birden fazlada koşul girebiliriz. Bunun için de "and" ve "or" komutlarını kullanabiliriz.
+
+
+Eğer and kullanıyorsak iki koşulunda olduğu bir durumda listeleme yapar ve eğer or kullanıyorsak iki koşuldan birinin olduğu durumda listeleme yapar.
+
+Sql'de de aynı normlade olduğu gibi karşılaşma opreatörleri kullanılır.
+
+Bunlar şu şekildedir ;
+    - = : Eşitse
+    - != : Eşit değilse
+    - < : Küçükse
+    - > : Büyükse
+    - <= : Küçük eşitse
+    - >= : Büyük eşitse
+    - between : arasında ise
+    - like : benzerse
+    - in : içinde ise
+    - not in : içinde değilse
+    - is null : boşsa
+    - is not null : boş değilse
+    - and : ve
+    - or : veya
+    - not : değilse
+
+Select ve Where'ü denemek için https://www.hackerrank.com/challenges/select-by-id/problem şu soruyu çözebilirisn :)
+
