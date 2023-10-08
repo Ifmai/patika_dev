@@ -1,0 +1,26 @@
+Aggregate Fonksiyonları Nelerdir ?
+-MIN, MAX, SUM, AVG
+
+Aggregate fonksiyonları yardımıyla bizler veri kümelerimizden sonuçlar çıkarabiliriz. 
+Ne demek istiyorum? Şu senaryoları düşünelim.
+
+-Toplam kaç adet müşterimiz var?
+-Elimizde bulunan filmlerin ortalama uzunluğu nedir?
+
+Bu şekilde belirli veri kümelerinden tek bir sonuç çıkarmak için aggregate fonksiyonları kullanırız.
+
+AVG fonksiyonunu kullandığımız sayısal değerlerden oluşan sütunun ortalama değerini alırız.
+Örnek Kullanım 
+SELECT AVG(length) FROM film
+
+MAX fonksiyonu ile sayısal değerlerden oluşan sütunun en büyük değerini alırız.
+Örnek Kullanım
+SELECT MAX(length) FROM film
+
+MIN fonksiyonu ile sayısal değerlerden oluşan sütunun en küçük değerini alırız.
+Örnek Kullanım
+SELECT MIN(length) FROM film
+
+SUM fonksiyonu ile sayısal değerlerden oluşan sütunun toplamını alırız.
+Örnek Kullanım
+SELECT SUM(length) FROM film
