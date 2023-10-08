@@ -1,0 +1,28 @@
+Like Query sorgusu
+
+
+select * from film 
+"tablo su içerisinde ki bir ismi arıyoruz diyelim"
+bu durumda bildiğimiz kadarıyla 
+where film_name = "Film Adı" yazarız.
+ancak belirli bir kısmı arıyoruz varsayalım.
+Mesela baş harfi "Fil" ile başlayan filmleri listemelek istiyorsak bu durumda like komudu devreye giriyor.
+where film_name like ("Fil%")
+% ile devamının önemli olmadığını sadece ilk 3 harfinin Fil olan bütün film adlarını bize listeyelecektir.
+where film_name like ("%l%")
+burada ise başı ve sonu önemsiz içinde l olan tüm filmleri listeleyecektir.
+
+select country from country
+where country like ('_____n')
+bu sorguda ise _ karakter anlamına geliyor '%' ile arasında ki fark ise şudur:
+% karakter countunu umursamaz.
+_ ise bir karakteri temsil eder
+
+Yukarıdaki like komudunda 6 karakterli ve sonu n ile biten 6 şehri sıralayacaktır.
+
+
+Genel syntax 
+
+SELECT <sütun_adı>, <sütun_adı>, ...
+FROM <tablo_adı>
+WHERE <sütun_adı> LIKE <şablon>
