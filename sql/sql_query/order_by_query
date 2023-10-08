@@ -1,0 +1,31 @@
+Geldik sıralama sorgusuna
+
+Order by sorgusu.
+
+
+Order by sorgusu ile sıralama yapabiliriz. 
+Sıralama yaparken değişkenlerin türüne göre sıralama yapabiliriz.
+Örneğin sayısal bir değişkeni küçükten büyüğe veya büyükten küçüğe sıralayabiliriz. 
+Aynı şekilde karakter değişkenlerini de alfabetik olarak sıralayabiliriz.
+
+Order by Söz Dizimi
+
+select <sütun_adı>, <sütun_adı>, ...
+from <tablo_adı>
+order by <sütun_adı> <sıralama_türü> (Sıralama Türü = asc, desc)
+
+--Asc Alfabetik / Küçükten Büyüğe
+--Desc Tersten Alfabetik / Büyükten Küçüğe
+
+Örnek Kullanım
+
+SELECT *
+FROM film
+ORDER BY title desc // Alfabetik olarak film tablosunun title sütununu tersten sıralar.
+
+eğer bir koşul yazıcaksan order by sorgusu where sorgusundan sonra gelir.
+
+Örnek Kullanım
+select * from film
+where length > 60
+order by length desc // şeklinde.
