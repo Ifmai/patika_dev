@@ -1,0 +1,18 @@
+Count Query:
+
+
+Count sorgusu bize bir sorgu sonucu listelenen veri sayısını verir.
+
+"SELECT * 
+FROM actor
+WHERE first_name = 'Penelope';"
+
+böyle bir örnek sorguda bize first_name 'Penelope' olan tüm kişiler listelenir.
+
+"SELECT COUNT(*)
+FROM actor
+WHERE first_name = 'Penelope';"
+
+böyle bir örnek sorguda ise bize actor tablosunda first_name 'Penelope' olan kişi sayısı verilir.
+
+Dip Not : Yukarıda da belirttiğimiz gibi COUNT fonksiyonu ile sorgu sonucunda ortaya verileri sayıyoruz. Bu nedenle COUNT(*) veya COUNT(sütun_adı) aynı sonucu verir.

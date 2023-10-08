@@ -1,0 +1,19 @@
+Şimdiye kadar where ile filan sürekli belirli komutlarla 
+listeliceğimiz şeyleri sıraladık. 
+
+Örneğin işte şu tablodaki filmlerin süreleri 90 dan uzun olarak sıralada dedik.
+Daha spefisik bir örnek vericek olursak read.me dosyasında verdiğim db'nin içinde ki
+film tablosunda ki rental_rate 0.99 olan filmleri sırala dedik. vb.
+
+ama 0.99 olan bir sürü değer var ve biz eğer bir tabloda ki tüm farklı değerleri birer tane olmak
+üzere listelemek istersek nasıl bir sorgu kullanırız.
+
+Bunun için distinct komudunu kullanırız.
+örnek : select distinct rental_rate from film;
+
+bu komutu kullandığımız da bize tüm farklı rental_rate değerlerini listeler.
+
+Distinct syntax:
+
+SELECT DISTINCT <sütun_adı>, <sütun_adı>, ...
+FROM <tablo_adı>
