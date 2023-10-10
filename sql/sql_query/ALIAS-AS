@@ -1,0 +1,20 @@
+ALIAS (AS)
+
+AS anahtar kelimesi sayesinde sorgular sonucu oluşturduğumuz sanal tablo ve sütunlara geçici isimler verebiliriz.
+
+ALIAS SÜTUN KULLANIMI
+
+SELECT <sütun_adı> AS <geçici_ad>
+FROM <tablo_adı>;
+ALIAS TABLO KULLANIMI
+
+SELECT <sütun_adı>, <sütun_adı>...
+FROM <tablo_adı> AS <geçici_ad>;
+
+
+örnek kullanım :
+select first_name as ad, last_name as soyad from actor;
+
+örnek kullanım 2 : 
+select first_name, last_name from actor as ad
+where first_name like 'A%'

@@ -1,0 +1,36 @@
+Tablo Oluşturmak ve Silmek (CREATE - DROP)
+
+
+Tablo Oluşturmak - CREATE
+SQL ile yeni bir tablo oluşturmak için CREATE anahtar kelimesi kullanılır.
+Tablo oluştururken sonrasında daha detaylı konuşacağımız 3 önemli başlık daha vardır.
+
+Sütunlara verilecek isim, sütunların veri tipi ve varsa sütunlarda bulunan kısıtlama yapıları.
+
+Tablo Oluşturmak - CREATE Söz Dizimi
+CREATE TABLE <tablo_adı> (
+    <sütun_adı> <veri_tip>,
+    <sütun_adı> <veri_tip>,
+   ....
+)
+
+Örnek bir kullanımı inceleyelim.
+CREATE TABLE author (
+  id SERIAL PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100),
+  birthday DATE
+)
+
+Tablo Silmek - DROP
+Oluşturduğumuz tabloları silmek için DROP anahtar kelimesi kullanılır.
+
+Tablo Silmek - DROP Söz Dizimi
+DROP TABLE (IF EXISTS) <tablo_adı>
+
+Burada IF EXISTS yapısını kullanarak yanlış tablo ismi yazımı durumunda hata mesajı almayı önleriz.
+
+
+Yukarıda ver tipi olarak yazdığım yerlere neler gelebileceği hakkında fikir sahibi olmak için
+https://www.w3schools.com/sql/sql_datatypes.asp bunu okumanı tavsiye ederim.

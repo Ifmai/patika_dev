@@ -1,0 +1,32 @@
+UPDATE
+UPDATE anahtar kelimesi sayesinde tablomuzda bulunan verileri güncelleyebiliriz.
+
+UPDATE Söz Dizimi
+UPDATE <tablo_adı>
+SET <sütun_adı> = değer, 
+    <sütun_adı> = değer,
+    ----
+WHERE <koşul_adı>;
+
+UPDATE Örnek Kullanım
+my_apps tablosunda bulunan ve id 2' ye eşit olan verimizin name sütunundaki degerini 'Mayak' price sütunundaki değerini '$5.22' ile değiştirelim.
+
+UPDATE my_apps
+SET name = 'Mayak',
+	price = '$5.22'
+WHERE id = 2;
+
+
+
+DELETE
+DELETE anahtar kelimesi sayesinde tablomuzda bulunan verileri silebiliriz.
+
+DELETE Söz Dizimi
+DELETE FROM <tablo_adı>
+WHERE <koşul_adı>;
+
+DELETE Örnek Kullanım
+my_apps tablosunda bulunan name sütunundaki verisi 'Tresom' olan satırı silelim.
+
+DELETE FROM my_apps
+WHERE name = 'Tresom';
