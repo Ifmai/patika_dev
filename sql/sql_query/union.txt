@@ -37,3 +37,6 @@ FROM <table2>
 UNION ALL
 
 UNION operatörü bize birleşik veriler içerisindeki tekrar edenleri göstermez. Tekrar edenleri görmek için UNION ALL kullanırız.
+
+
+kısa özet : 2 sorguyu birleştirerek tek çıktı alıyoruz. 
