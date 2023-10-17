@@ -19,3 +19,10 @@ select first_name, last_name from customer where first_name = 'Mary'
 -- Bu durumda ben ikisini de istemediğim için and diyorum ki ikiside olmasın.
 select * from film 
 where length < 50 and (rental_rate != 2.99 and rental_rate != 4.99)
+
+
+
+create table film(
+    nvarchar
+    film_name varchar(50),
+)

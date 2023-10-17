@@ -11,6 +11,7 @@ create table book(
 	page_count int not null,
 	prof_id int references prof(id)
 )
+
 --prof table insert
 insert into prof (name, age, email) values ('Klemens Dudenie', 57, 'kdudenie0@rambler.ru');
 insert into prof (name, age, email) values ('Obadias Hum', 28, 'ohum1@forbes.com');
